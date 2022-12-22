@@ -22,12 +22,11 @@ var easyBtn = document.getElementById("easy");
 var counter = 0;
 var statusCheck;
 const keys = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR"]
-// keys for testing
+
+// Test Keys
 // const keys = ["Space", "ShiftLeft"]
 
 const quotes = ['"Time to test another Springbot" - Scientist', '"This Springbot is defective" - Scientist', '"Better luck next time Springbot" - Scientist', '"More Springbot testing is needed" -Scientist', '"You can do better Springbot" -Scientist', '"Electric bombs are deadly for Springbot" -Scientist', '"I will build as many Springbots as it takes" -Scientist', '"When will I have my perfect Springbot?" -Scientist']
-
-// Set Difficulty
 
 document.addEventListener("keydown", start, { once: true })
 document.addEventListener("keydown", jump, { once: true })
