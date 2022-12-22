@@ -8,10 +8,10 @@ var saveBtn = document.getElementById("saveScore");
 var bg = document.getElementById("bg");
 
 // SFX 
-let deathSfx = new Audio('./sfx/death.mp3');
-let jumpSfx = new Audio('./sfx/jump.mp3');
-let hitSfx = new Audio('./sfx/hit.mp3');
-let startSfx = new Audio('./sfx/start.mp3');
+let deathSfx = new Audio('./assets/sfx/death.mp3');
+let jumpSfx = new Audio('./assets/sfx/jump.mp3');
+let hitSfx = new Audio('./assets/sfx/hit.mp3');
+let startSfx = new Audio('./assets/sfx/start.mp3');
 
 // Difficulty option buttons
 var hardBtn = document.getElementById("hard");
