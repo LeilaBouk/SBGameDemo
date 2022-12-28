@@ -178,4 +178,10 @@ h1 {
   background-color: #86c06c;
   border: none;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btns button:hover {
+  color: #e0f8cf;
+  background-color: #306850;
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */

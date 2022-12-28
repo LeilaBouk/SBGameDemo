@@ -139,5 +139,14 @@ h1 {
     background-color: $mid-gba;
     border: none;
     cursor: pointer;
+    transition: all .2s ease-in-out; 
+  }
+
+  button:hover {
+    color: $light-gba;
+    background-color: $dark-gba;
+    transform: scale(1.1); 
   }
 }
+
+
