@@ -24,14 +24,11 @@ var statusCheck;
 const keys = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR"]
 
 // Difficulty
-const relaxed = ["Space"]
+const relaxed = ["Space", "ShiftLeft"]
 const easy = ["KeyW", "KeyA", "KeyS", "KeyD"]
 const medium = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR"]
 const hard = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR", "KeyP", "KeyO", "KeyI", "KeyK", "KeyL", "KeyJ", "KeyU", "ShiftRight", "KeyU"]
 const extreme = ["KeyA", "KeyB", "KeyC", "KeyD", "KeyE", "KeyF", "KeyG", "KeyH", "KeyI", "KeyJ", "KeyK", "KeyL", "KeyM", "KeyN", "KeyO", "KeyP", "KeyQ", "KeyR", "KeyS", "KeyT", "KeyU", "KeyV", "KeyW", "KeyX", "KeyY", "KeyZ", "LeftShift", "RightShift", "Space"]
-
-// Test Keys
-// const keys = ["Space", "ShiftLeft"]
 
 const quotes = ['"Time to test another Springbot" - Scientist', '"This Springbot is defective" - Scientist', '"Better luck next time Springbot" - Scientist', '"More Springbot testing is needed" -Scientist', '"You can do better Springbot" -Scientist', '"Electric bombs are deadly for Springbot" -Scientist', '"I will build as many Springbots as it takes" -Scientist', '"When will I have my perfect Springbot?" -Scientist']
 
