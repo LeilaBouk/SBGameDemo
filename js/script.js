@@ -23,6 +23,13 @@ var counter = 0;
 var statusCheck;
 const keys = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR"]
 
+// Difficulty
+const relaxed = ["Space"]
+const easy = ["KeyW", "KeyA", "KeyS", "KeyD"]
+const medium = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR"]
+const hard = ["KeyA", "KeyW", "Space", "KeyQ", "KeyD", "KeyE", "ShiftLeft", "KeyR", "KeyP", "KeyO", "KeyI", "KeyK", "KeyL", "KeyJ", "KeyU", "ShiftRight", "KeyU"]
+const extreme = ["KeyA", "KeyB", "KeyC", "KeyD", "KeyE", "KeyF", "KeyG", "KeyH", "KeyI", "KeyJ", "KeyK", "KeyL", "KeyM", "KeyN", "KeyO", "KeyP", "KeyQ", "KeyR", "KeyS", "KeyT", "KeyU", "KeyV", "KeyW", "KeyX", "KeyY", "KeyZ", "LeftShift", "RightShift", "Space"]
+
 // Test Keys
 // const keys = ["Space", "ShiftLeft"]
 
